@@ -1,0 +1,79 @@
+.transactionstable {
+  margin: 20px;
+  font-family: Arial, sans-serif;
+}
+.transactionstable table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.transactionstable button {
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+}
+
+
+.transactionstable .table {
+  margin-top: 20px;
+}
+
+
+.transactionstable th,
+.transactionstable td {
+  padding: 12px 8px;
+  text-align: left;
+}
+
+.transactionstable th {
+  color: rgb(2, 2, 2);
+}
+
+
+.transactionstable tr:nth-child(even) {
+  background-color: #fff8f8;
+}
+
+.transactionstable tr:hover {
+  background-color: #e0e0e0;
+}
+.table {
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.input{
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.input input,
+.input button {
+  margin-right: 10px;
+}
+
+.input button {
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+}
+
